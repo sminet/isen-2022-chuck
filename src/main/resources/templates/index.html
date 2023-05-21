@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:fragment="layout (title, content)">
+<head>
+    <title>Chuck Facts</title>
+</head>
+<body>
+    <h1>Joke id : [[${joke.id}]]</h1>
+    <p th:text="${joke.value}"></p>
+</body>
+</html>
